@@ -10,6 +10,9 @@ h1 {
   margin-top: 6px;
   margin-bottom: 6px;
 }
+h4 {
+  margin-top: -15px;
+}
 
 .globalPage{
   height: 100%;
@@ -34,18 +37,19 @@ h1 {
   }
 }
 #title {
-  font-size: 125px;
+  font-size: 100px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 #headerText>p{
-  font-size: 45px;
+  font-size: 42px;
 }
 #headshot {
   width: 100%;
+  margin-right: -60px;
+  overflow: hidden;
 }
 #headshot>img {
-  margin: 50px;
   max-width: 95%;
 }
 
@@ -57,27 +61,39 @@ h1 {
 }
 main {
   padding: 2%;
-  /*background-color: #DDDDDD;*/
-}
-.column {
-  float: left;
-  width: 50%;
 }
 
+/* projects */
+.column {
+  float: left;
+  width: 46%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+.projectImage{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+}
 #asrcARApp:link{
-  color: #ffc8dd;
+  color: #4060c9;
+  text-decoration: underline;
 }
 #asrcARApp:hover {
-  color: #ffa1c3;
+  color: #212864;
   cursor: pointer
+  text-decoration: underline;
 }
 #asrcARApp:visited {
-  color: #ffa1c3;
+  color: #212864;
+  text-decoration: underline;
 }
 
 /* links */
