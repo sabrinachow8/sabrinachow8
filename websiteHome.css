@@ -11,12 +11,19 @@ h1 {
   margin-bottom: 6px;
 }
 
+.globalPage{
+  height: 100%;
+}
+
+
+/* header ----------------------------------- */
+
 #header{
   animation: fadein 3s;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: space-evenly;
 }
 @keyframes fadein {
   from {
@@ -26,28 +33,51 @@ h1 {
     opacity: 1;
   }
 }
-
-.globalPage{
-  height: 100%;
+#title {
+  font-size: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#headerText>p{
+  font-size: 45px;
+}
+#headshot {
+  width: 100%;
+}
+#headshot>img {
+  margin: 50px;
+  max-width: 95%;
 }
 
-/* main article */
+
+/* main article ----------------------------- */
+
 #mainContent {
-  column-count: 2;
   width: 66%;
 }
 main {
   padding: 2%;
   /*background-color: #DDDDDD;*/
 }
-#title {
-  font-size: 150px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.column {
+  float: left;
+  width: 50%;
 }
-#header>p{
-  padding-left: 30%;
-  font-size: 45px;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#asrcARApp:link{
+  color: #ffc8dd;
+}
+#asrcARApp:hover {
+  color: #ffa1c3;
+  cursor: pointer
+}
+#asrcARApp:visited {
+  color: #ffa1c3;
 }
 
 /* links */
