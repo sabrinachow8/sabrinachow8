@@ -1,0 +1,33 @@
+body {
+  overflow: hidden;
+}
+
+.parent {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.parent::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  height: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+header {
+  position: fixed;
+}
+
+footer {
+  position: fixed;
+}
+
+hr {
+  margin-bottom: 40px;
+}

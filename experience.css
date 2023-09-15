@@ -1,0 +1,66 @@
+body {
+  overflow: hidden;
+}
+
+.parent {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.parent::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  height: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+header {
+  position: fixed;
+}
+
+
+#resume {
+  height: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 46%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.projectImage{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+}
+#asrcARApp:link{
+  color: #4060c9;
+  text-decoration: underline;
+}
+#asrcARApp:hover {
+  color: #212864;
+  cursor: pointer
+  text-decoration: underline;
+}
+#asrcARApp:visited {
+  color: #212864;
+  text-decoration: underline;
+}
