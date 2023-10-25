@@ -24,43 +24,74 @@ header {
   position: fixed;
 }
 
-
-#resume {
-  height: 100%;
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.arrowDown {
+  display: block;
+  margin: auto;
   text-align: center;
 }
-.column {
-  float: left;
-  width: 46%;
-  margin-left: 20px;
-  margin-right: 20px;
+
+/* ================================================== */
+/* Education/Experience */
+/* ================================================== */
+
+
+#experienceContent {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+.experienceColumn {
+  flex-basis: 48%;
 }
-.projectImage{
-  width: 100%;
+
+#educationResume {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#resume {
+  align-items: end;
+}
+
+#education {
+  align-items: end;
+}
+
+.date {
+
+  color: #BBD5ED;
+  font-style: normal;
+  margin-left: 30px;
+}
+
+/* ================================================== */
+/* Projects */
+/* ================================================== */
+
+.projectContent {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+.projectColumn {
+  flex-basis: 40%;
+}
+
+img {
+  border-radius: 50px;
+  width: 100px;
   height: auto;
-  object-fit: cover;
-  object-position: center;
-  margin-top: 20px;
-}
-#asrcARApp:link{
-  color: #4060c9;
-  text-decoration: underline;
-}
-#asrcARApp:hover {
-  color: #212864;
-  cursor: pointer
-  text-decoration: underline;
-}
-#asrcARApp:visited {
-  color: #212864;
-  text-decoration: underline;
+  min-width: 600px;
 }

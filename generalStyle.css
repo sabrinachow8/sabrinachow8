@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  color: #38023B;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -14,9 +15,17 @@ main {
 }
 h1 {
   font-size: 50px;
+  color: #A288E3;
   margin-top: 6px;
   margin-bottom: 6px;
 }
+h2 {
+  font-size: 35px;
+  color: #A288E3;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 h4 {
   margin-top: -15px;
 }
@@ -30,9 +39,39 @@ h4 {
   font-size: 42px;
 }
 
-/* ######################################## */
-/* links */
-/* ######################################## */
+.globalPage {
+  padding-top: 40px;
+}
+
+
+/* ================================================== */
+/* Highlights */
+/* ================================================== */
+
+.bold-text-1 {
+    background-color: #CCFFCB;
+    border-radius: 15px;
+}
+
+.bold-text-2 {
+    background-color: #CEFDFF;
+    border-radius: 15px;
+}
+
+.bold-text-3 {
+    background-color: #BBD5ED;
+    border-radius: 15px;
+}
+
+.bold-text-4 {
+    background-color: #d2f7ed;
+    border-radius: 15px;
+}
+
+
+/* ================================================== */
+/* Links */
+/* ================================================== */
 
 .important {
   font-size: 25px;
@@ -46,15 +85,38 @@ h4 {
   display: inline;
 }
 a:link {
-  color: black;
+  color: #38023B;
   text-decoration: none;
-  font-style: italic;
+  font-style: normal;
 }
 a:hover {
-  color: black;
-  font-style: normal;
+  color: #38023B;
+  font-style: italic;
   cursor: pointer
 }
 a:visited {
-  color: black;
+  color: #38023B;
+}
+
+#contactMethods {
+
+}
+
+.button {
+  background-color: #BBD5ED;
+  border: 2px solid #BBD5ED;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #BBD5ED;
+  border: 2px solid #BBD5ED;
 }

@@ -19,7 +19,7 @@ body {
   margin-right: 80px;
 }
 #title {
-  font-family: 'Arvo';
+  /*font-family: 'Arvo';*/
   font-size: 100px;
 }
 #headerText>p{

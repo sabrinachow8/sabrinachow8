@@ -31,3 +31,57 @@ footer {
 hr {
   margin-bottom: 40px;
 }
+
+h1 {
+  margin-bottom: 40px;
+}
+
+/* ================================================== */
+/* Intro Content */
+/* ================================================== */
+
+#mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainColumn {
+  flex-basis: 45%;
+}
+
+.compBioEq {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+h3.compBioEq {
+  font-family: 'Lora', sans-serif;
+  font-size: 30px;
+}
+
+p.compBioEq {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.arrowDown {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/* ================================================== */
+/* What I do for Fun */
+/* ================================================== */
+
+#funContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.funColumn {
+  flex-basis: 30%;
+}

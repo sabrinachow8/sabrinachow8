@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="generalStyle.css"> </link>
     <link rel="stylesheet" href="experience.css"> </link>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
+    <script src="https://kit.fontawesome.com/208c5e6ab5.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"></link>
   </head>
   <body>
@@ -17,76 +18,65 @@
     </nav>
     <main>
       <div class="parent">
-        <section id="resume" class="globalPage">
-          <h1>Download my resume</h1>
-          <br>
-          <a href="#educationPage">Read more.</a>
-        </section>
-
-        <section id="educationPage" class="globalPage">
-          <h1>Education</h1>
-          <hr/>
-          <p> Cornell University </p>
-        </section>
-
-        <section id="projectsPage" class="globalPage">
-          <h1>Projects</h1>
-          <hr/>
-          <div class="row">
-            <div class="column">
-              <img src="ar app layout.png" class="projectImage">
+        <section id="experiencePage" class="globalPage">
+          <div id="experienceContent">
+            <div class="experienceColumn" id="education">
+              <div id="educationResume">
+                <div>
+                  <h2>education</h2>
+                  <h3>Cornell University <i class="date">Fall 2021 to present</i></h3>
+                  <p>(in progress) Bachelor of Arts in Biological Sciences </p>
+                  <h3>University of Chicago MPCS <i class="date">Winter 2020 to Spring 2021</i></h3>
+                  <p>Masters-level courses in computer science taken during high school</p>
+                </div>
+                <div id="resume">
+                  <button class="button" onclick="window.open('https://docs.google.com/document/d/1NhAjS4uUSlsmqej6jQN1aNwvnE8gosZtLK8StKg_fWg/edit?usp=sharing','_blank')">Download my resume.</button>
+                </div>
+              </div>
             </div>
-            <div class="column">
+            <div class="experienceColumn">
+              <h2>where i've worked</h2>
+              <h3>Xu Lab @ Cornell University<i class="date">Fall 2023 to present</i></h3>
+              <p>Undergraduate Researcher </p>
+              <h3>NSF VR-REU <i class="date">Summer 2023</i></h3>
+              <p>Read my blog on the REU website.</p>
+              <h3>Lin Lab <i class="date">Summer 2022</i></h3>
+              <p>Visiting Undergraduate Researcher </p>
+              <h3>Moeller Lab <i class="date">September 2021 to July 2023</i></h3>
+              <p>Undergraduate Research Assistant </p>
+            </div>
+          </div>
+          <div class="arrowDown">
+            <p><i>see my projects</i></p>
+            <a href="#sabs"><i class="fa-solid fa-chevron-down"></i></a>
+          </div>
+
+        </section>
+        <section class="globalPage">
+          <div class="projectContent">
+            <div class = "projectColumn">
               <h2>iOS Augmented Reality IlluminationSpace Tour</h2>
-              <h4>SUMMER 2023</h4>
-              <p>This project is an iOS application designed to support STEM education at the City University of New York (CUNY) Advanced Science Research Center (ASRC). It uses Apple's RealityKit to run multiple Augmented Reality (AR) scenes in a scavenger hunt around the ASRC.</p>
-              <p>This AR application was designed as a part of the 2023 VR-REU run by Professor Wole. As the name suggests, the summer program is an REU, i.e. Research Experience for Undergraduates, sponsored by the National Science Foundation (NSF). This project specifically was supervised by Kendra Krueger.</p>
+              <h3>Summer 2023</h3>
+              <p>This project is an iOS application designed to support STEM education at the City University of New York (CUNY) Advanced Science Research Center (ASRC). It uses Apple's RealityKit to run multiple Augmented Reality (AR) scenes in a scavenger hunt around the ASRC. </p>
+              <p>To learn more about how the application works, please visit the GitHub repository and look at the ReadMe: <a href="https://github.com/sabrinachow8/AR_STEM_Education" id="asrcARApp">GitHub Link</a></p>
+            </div>
+            <div class = "projectColumn">
+              <img src="Mask Group.jpg">
+            </div>
+          </div>
+        </section>
+        <section class="globalPage">
+          <div class="projectContent">
+            <div class = "projectColumn">
+              <img src="stress redux app layout.png">
+            </div>
+            <div class = "projectColumn">
+              <h2>Stress Redux</h2>
+              <h3>Winter 2020</h3>
+              <p>This application was designed as my final project for the UChicago MPCS class 51030 iOS App Development. </p>
               <p>To learn more about how the application works, please visit the GitHub repository and look at the ReadMe: <a href="https://github.com/sabrinachow8/AR_STEM_Education" id="asrcARApp">GitHub Link</a></p>
             </div>
           </div>
-          <div class="row">
-            <div class="column">
-              <h2>Stress Redux</h2>
-              <h4>WINTER 2020</h4>
-              <p>This application was designed as my final project for the MPCS class.</p>
-            </div>
-            <div class="column">
-              <img src="stress redux app layout.png" class="projectImage">
-            </div>
-          </div>
-        </section>
-
-        <section id="experiencePage" class="globalPage">
-          <h1>Experience</h1>
-          <hr/>
-          <h3>Xu Lab </h3>
-          <h4>Fall 2021 to Spring 2023</h4>
-          <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-          </ul>
-          <h3>NSF VR-REU </h3>
-          <h4>Fall 2021 to Spring 2023</h4>
-          <ul>
-            <li>Read my blog on the REU website.</li>
-            <li>Tea</li>
-            <li>Milk</li>
-          </ul>
-          <h3>Lin Lab </h3>
-          <h4>Fall 2021 to Spring 2023</h4>
-          <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-          </ul>
-          <h3>Moeller Lab </h3>
-          <h4>Fall 2021 to Spring 2023</h4>
-          <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>https://codepen.io/studiojvla/pen/qVbQqW</li>
-          </ul>
         </section>
       </div>
     </main>
