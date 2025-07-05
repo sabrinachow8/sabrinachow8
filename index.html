@@ -8,34 +8,43 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"></link>
   </head>
   <body>
-    <nav class="important">
-      <ul class="links">
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="experience.html">experience</a></li>
-      </ul>
+    <nav>
+      <div id="navigationBoxLeft">
+        <a href="index.html">SC</a>
+      </div>
+      <div id="navigationBoxRight">
+        <ul class="links" id="navLinks">
+          <li><a class="current" href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="experience.html">experience</a></li>
+          <li><a id="resumeButton" href="https://docs.google.com/document/d/1NhAjS4uUSlsmqej6jQN1aNwvnE8gosZtLK8StKg_fWg/edit?usp=sharing">resume</a></li>
+        </ul>
+      </div>
     </nav>
     <main>
       <div id="header">
-        <div id="headerText">
-          <h1 id="title">sabrina chow</h1>
-          <p>Undergraduate student at <strong class="bold-text-2">Cornell University</strong> pursuing a major in <strong class="bold-text-1">Biological Sciences</strong> with a concentration in <strong class="bold-text-1">Computational Biology</strong> and a minor in <strong class="bold-text-2">Data Science.</strong></p>
+        <div id=headerText>
+          <div id="headerBio">
+            <h1>sabrina chow</h1>
+            <p>Undergraduate student at <strong class="bold-text-2">Cornell University</strong> pursuing a major in <strong class="bold-text-1">Biological Sciences</strong> with a concentration in <strong class="bold-text-1">Computational Biology</strong> and a minor in <strong class="bold-text-2">Data Science.</strong></p>
+          </div>
+          <div id="container">
+            <div class="box" id="seekingOpportunities">Interested in computational ecology opportunities!</div>
+            <div class="box" id="getInTouch">
+              <p>Let's get in touch!</p>
+              <ul class="links">
+                <li><a href="https://www.linkedin.com/in/sabrina8chow/" class="fab fa-linkedin"></a></li>
+                <li><a href="mailto:sabrina8chow@gmail.com" class="fa-solid fa-envelope"></a></li>
+                <li><a href="https://github.com/sabrinachow8" class="fab fa-github"></a></li>
+                <!--<li><a href="https://instagram.com/sabrina.chow" class="fab fa-instagram"></a></li>-->
+              </ul>
+            </div>
+          </div>
         </div>
         <div id="headshot">
           <img src="headshot.jpg">
-
-
         </div>
       </div>
     </main>
-
-    <footer class="important">
-      <ul class="links">
-        <li><a href="https://www.linkedin.com/in/sabrina-chow-634658224/" class="fab fa-linkedin"></a></li>
-        <li><a href="mailto:sabrina8chow@gmail.com" class="fa-solid fa-envelope"></a></li>
-        <li><a href="https://github.com/sabrinachow8" class="fab fa-github"></a></li>
-        <!--<li><a href="https://instagram.com/sabrina.chow" class="fab fa-instagram"></a></li>-->
-      </ul>
-    </footer>
   </body>
 </html>

@@ -30,63 +30,6 @@ header {
   text-align: center;
 }
 
-img {
-  width: 350px;
-  height: auto;
-  object-fit: cover;
-  overflow: hidden;
-  border-radius: 50px;
-}
-
-/* ================================================== */
-/* Education/Experience */
-/* ================================================== */
-
-
-#experienceContent {
-  display: flex;
-  justify-content: space-between;
-  /*align-items: center;*/
-}
-
-.experienceColumn {
-  flex-basis: 70%;
-}
-
-h2 {
-  margin-bottom: 0px;
-}
-
-h4 {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-p {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-#resume {
-  align-items: end;
-}
-
-#education {
-  align-items: end;
-}
-
-.date {
-  color: #86b2db;
-  font-style: normal;
-  margin-left: 20px;
-  float:right;
-}
-
-#skillsList {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
 /* ================================================== */
 /* Projects */
 /* ================================================== */
@@ -105,7 +48,7 @@ h3 {
 
 }
 
-.projectImg {
+img {
   border-radius: 50px;
   width: 100px;
   height: auto;

@@ -6,7 +6,9 @@ body {
   flex-direction: row;
   align-items: center;
   align-content: space-between;
+  padding-top: 45px;
 }
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -15,16 +17,55 @@ body {
     opacity: 1;
   }
 }
+#container {
+  display: flex;
+}
+.box {
+  flex: 1;
+  padding: 10px;
+}
 #headerText {
   margin-right: 80px;
+  flex: 0 0 50%;
 }
-#title {
-  /*font-family: 'Arvo';*/
-  font-size: 100px;
+#headerBio {
+  margin-bottom: 45px;
 }
-#headerText>p{
-  font-size: 30px;
+#headerBio > h1 {
+  font-size: 90px;
 }
-#headshot>img {
-  max-width: 130%;
+#headerBio>p{
+  font-size: 25px;
+}
+#seekingOpportunities {
+  border: 5px solid #C2EDBB;
+  border-radius: 15px;
+  background-image: url("catbird.JPG");
+  background-size: cover;
+  color: white;
+}
+#getInTouch {
+  text-align: center;
+  border: 5px solid #BBD5ED;
+  border-radius: 15px;
+  margin-left: 45px;
+}
+#getInTouch {
+  font-size: 20px;
+}
+#getInTouch>ul>li>a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 45px;
+  color: #A288E3;
+}
+#headshot {
+  flex: 1 1 40%;
+  text-align: right;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px;
 }
